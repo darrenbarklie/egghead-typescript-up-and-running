@@ -23,6 +23,7 @@ const values = fill(["a", "b", "c"], 4);
 values.map((x) => x.toFixed(2));
 
 // Convention is to use `T` for generic
+// Throwaway filler name like 'foo'
 function filler<T>(array: any[], value: T): T[] {
   return array.map(() => value);
 }
