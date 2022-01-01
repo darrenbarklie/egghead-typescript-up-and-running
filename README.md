@@ -39,3 +39,22 @@ node dist/index.js
 ```
 
 Command will respond with "Hello from TypeScript"
+
+## TypeScript
+
+```
+
+# Install TypeScript globally
+npm install -g typescript
+
+# View TS compiler help
+tsc --help
+
+# Manual TS compilation
+tsc hello.ts
+# => Generates hello.js
+
+# Create tsconfig.json file
+tsc --init
+
+```
